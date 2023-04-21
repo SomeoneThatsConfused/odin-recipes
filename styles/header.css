@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 43px;
+  height: 65px;
   border-bottom: 1px solid rgb(229, 231, 235);
 }
 
@@ -10,15 +10,15 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  width: 120px;
+  width: 190px;
 }
 
 #logo-image {
-  height: 34px;
+  height: 60px;
 }
 #logo-name {
-  font-size: 13px;
-  margin-left: 1px;
+  font-size: 20px;
+  margin-left: 10px;
   font-family: "Norse";
   color: black;
 }
@@ -27,21 +27,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 840px;
+  width: 1250px;
   margin: 0 auto;
 }
 
 #nav-bar {
   display: flex;
-  width: 300px;
+  width: 440px;
   align-items: center;
 }
 
 .dashboard-link, .all-recipe-link, .community-link {
-  font-size: 9px;
+  font-size: 14px;
   font-weight: 500;
   height: 17px;
-  margin-left: 20px;
+  margin-left: 25px;
   color: rgb(107, 114, 128);
   text-decoration: none;
   padding: 2px;
@@ -55,18 +55,15 @@
   border-bottom: 1.5px solid rgb(201, 203, 206);
   color: black;
 }
-
-.notif-logo {
-  height: 15px;
-  width: 15px;
+/*To be Optimized*/
+.notif-logo path {
+  height: 40px;
   margin-left: 10px;
   margin-top: 5px;
   padding: 4px;
   border-radius: 100%;
 }
 
-.notif-logo:hover {
-  border: 2px solid rgb(211, 161, 81);
-  height: 15px;
-  width: 15px;
+.notif-logo:hover path {
+  fill: black;
 }
