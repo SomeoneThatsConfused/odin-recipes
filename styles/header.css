@@ -45,7 +45,6 @@
   color: rgb(107, 114, 128);
   text-decoration: none;
   padding: 2px;
-  box-sizing: border-box;
 }
 
 .all-recipe-link {
@@ -71,4 +70,3 @@
   height: 15px;
   width: 15px;
 }
-
