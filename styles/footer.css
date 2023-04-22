@@ -1,5 +1,5 @@
-#footer {
-  position: absolute;
+footer {
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -71,6 +71,7 @@
 }
 #question {
   font-size: 30px;
+  font-weight: 700;
   color: rgb(55, 65, 81);
 }
 
@@ -78,6 +79,7 @@
   margin: 15px 0px 15px 0px;
   color: rgb(107, 114, 128);
   font-size: 17px;
+  font-weight: 400;
 }
 
 #community-button {
@@ -88,6 +90,7 @@
   padding: 15px 60px 15px 60px;
   border-radius: 7px;
   margin-bottom: 15px;
+  font-weight: 400;
 }
 
 #community-button:hover {

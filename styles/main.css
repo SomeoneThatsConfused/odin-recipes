@@ -1,15 +1,15 @@
 #content-container {
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
+  padding: 56px 32px 56px 32px;
   align-items: center;
-  margin-top: 20px;
 }
 #featured-recipe {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 900px;
   box-shadow: 0px 1px 3px 0px rgba(39, 55, 70, 0.2);
   border-radius: 5px;
   overflow: hidden;
@@ -17,25 +17,29 @@
 #featured-top-container {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
   align-items: flex-end;
 }
-#featured-label, #featured-recipe-label {
-  margin: 0;
+#featured-recipe-label {
+  font-size: 30px;
+  font-weight: 500;
 }
 #featured-bottom-container {
-  padding: 20px;
+  padding: 40px;
   border-top: 1px solid rgb(229, 231, 235);
   color: rgb(107, 114, 128);
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 20px;
 }
 #title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
 }
 #featured-label {
   color: rgb(169 121 43);
-  font-size: 9px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
 }
 .recipe-label {
   font-weight: 600;
@@ -44,10 +48,9 @@
   color: rgb(55 65 81);
   border: 1px solid rgb(200, 205, 216);
   background-color: rgb(255, 255, 255);
-  padding: 3px 37px 3px 37px;
-  border-radius: 5px;
-  font-size: 10px;
-  height: 30px;
+  padding: 15px 60px 15px 60px;
+  border-radius: 7px;
+  font-size: 14px;
 }
 .view-button:hover {
   cursor: pointer;
@@ -56,12 +59,11 @@
 #other-recipe-container {
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  width: 900px;
 }
 
 .recipes {
-  width: 200px;
-  padding: 0px 40px 0px 40px;
+  width: 430px;
   border-radius: 5px;
   box-shadow: 0px 1px 3px 0px rgba(39, 55, 70, 0.2);
   display: flex;
@@ -72,12 +74,27 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  padding: 32px 32px 0px 32px;
+}
+.recipe-bottom-container {
+  padding: 32px;
 }
 .breakfast-recipe {
   color: rgb(169 121 43);
-  font-size: 12px;
+  font-size: 16px;
 }
 .cooking-steps {
   color: rgb(107, 114, 128);
-  font-size: 12px;
+  font-size: 16px;
+}
+
+.recipe-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.recipe-description {
+  font-size: 16px;
+  color: rgb(107, 114, 128);
 }
